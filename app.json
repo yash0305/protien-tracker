@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Protein Tracker",
+    "slug": "protein-tracker",
+    "version": "1.0.0",
+    "scheme": "proteintracker",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yash.proteintracker",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.yash.proteintracker",
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1819e27f-23bc-4ac0-80a2-8c57737d176e"
+      }
+    }
+  }
+}
