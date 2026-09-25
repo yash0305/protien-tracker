@@ -18,7 +18,16 @@
       "versionCode": 1
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0E0F0D"
+        }
+      ]
     ],
     "extra": {
       "router": {},
