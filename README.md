@@ -20,3 +20,4 @@ No backend, no database, no account. Everything is stored on-device with AsyncSt
     storage/      The only file that touches AsyncStorage
     types/        TypeScript types
     utils/        Pure logic (calculations) and date helpers
+"# protien-tracker" 
